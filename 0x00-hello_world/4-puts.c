@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-/* Puts phrase */
+/**
+  *print phrase 
+  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
