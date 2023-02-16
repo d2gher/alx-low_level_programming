@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-  *print phrase 
+  *print phrase
   */
 
 int main(void)
