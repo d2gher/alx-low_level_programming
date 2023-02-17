@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Print if the number is positive, negative, or zero'
+ * Description: 'Print last digit of a number'
  *
  * Return: Always 0 (Success)
  */
