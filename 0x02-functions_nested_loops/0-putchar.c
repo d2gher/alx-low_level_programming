@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Print alphabet'
+ * Description: 'Print _putchar'
  *
  * Return: Always 0 (Success)
  */
