@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * islower - check the code
+ * _islower - check the code
  *
  * Return: Always 0.
  */
 
-int islower(int c)
+int _islower(int c)
 {
 if (c >= 97 && c <= 122)
 	return (1);
