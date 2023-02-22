@@ -3,9 +3,8 @@
 /**
  * _islower - check the code
  *
- * Return: Always 0.
+ * Return: Always 1 or 0.
  */
-
 int _islower(int c)
 {
 if (c >= 97 && c <= 122)
