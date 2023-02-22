@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - check the code
+ * islower - check the code
  *
  * Return: Always 0.
  */
 
-int islower(char c)
+int islower(int c)
 {
 if (c >= 97 && c <= 122)
 	return (1);
