@@ -14,7 +14,7 @@ for (l = 0; l < n; l++)
 {
 	for (s = 0; s - 1 < l; s++)
 		_putchar(' ');
-	_putchar('/');
+	_putchar('\\');
 	_putchar('\n');
 }
 if (n <= 0)
