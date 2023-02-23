@@ -2,7 +2,7 @@
 
 /**
  * main - FizzBuzz
- * Return: Void.
+ * Return: Always 0.
  */
 int main(void)
 {
