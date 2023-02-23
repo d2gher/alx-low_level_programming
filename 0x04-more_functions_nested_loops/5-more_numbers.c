@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 
 /**
@@ -8,22 +7,22 @@
  */
 void more_numbers(void)
 {
-	int i;
-	int x;
+int i;
+int x;
 
-	for (x = 0; x < 10; x++)
+for (x = 0; x < 10; x++)
+{
+	i = 0;
+	while (i <= 14)
 	{
-		i = 0;
-		while (i <= 14)
+		if (i >= 10)
 		{
-			if (i >= 10)
-			{
-				_putchar(i / 10 + '0');
-			}
-				_putchar(i % 10 + '0');
-			i++;
+			_putchar(i / 10 + '0');
 		}
-	_putchar('\n');
+			_putchar(i % 10 + '0');
+		i++;
 	}
+_putchar('\n');
+}
 }
 
