@@ -6,7 +6,7 @@
  * Return: a number.
  */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
  for (int h = 0; h < 25; h++)
  {
