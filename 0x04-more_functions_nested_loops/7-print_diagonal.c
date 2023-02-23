@@ -17,6 +17,6 @@ for (l = 0; l < n; l++)
 	_putchar('/');
 	_putchar('\n');
 }
-if (n == 0)
+if (n <= 0)
 	_putchar('\n');
 }
