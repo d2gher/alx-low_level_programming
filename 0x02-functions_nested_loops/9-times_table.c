@@ -14,13 +14,12 @@ void times_table(void)
 		{
 			n = f * l;
 
-			if ((n / 10) < 0)
+			if ((n / 10) < 1)
 				_putchar(' ');
 			else
 				_putchar((n / 10) + '0');
 
 			_putchar((n % 10) + '0');
-
 			if (l < 9)
 			{
 				_putchar(',');
