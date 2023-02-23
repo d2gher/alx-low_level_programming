@@ -2,8 +2,6 @@
 
 /**
  * jack_bauer - print all the time in a day
- **@h: number of hours
- **@m: number of minutes
  * Return: a number.
  */
 
