@@ -1,5 +1,5 @@
 /**
- * print_rev - Reverse a string
+ * rev_string - Reverse a string
  * @s: A string
  * Return: nothing
  */
