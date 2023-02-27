@@ -4,7 +4,7 @@
  * @b: Pointer to an int
  * Return: nothing.
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
  int *t;
 
