@@ -14,7 +14,7 @@ j = l - 1;
 i = 0;
 while (i < j)
 {
-	temp = s[i];
+	temp = s[j];
 	s[j] = s[i];
 	s[i] = temp;
 	i++;
