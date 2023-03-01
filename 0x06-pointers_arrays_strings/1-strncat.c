@@ -1,8 +1,8 @@
 /**
- * _strcat - add two strings together
+ * _strcat - add n chars of a string to string
  * @dest: First string
  * @src: Last string
- * @ى: Last string
+ * @n: Length of chars to add
  * Return: returns full string.
  */
 char *_strncat(char *dest, char *src, int n)
