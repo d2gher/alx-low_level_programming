@@ -1,5 +1,5 @@
 /**
- * _strcat - add n chars of a string to string
+ * _strncat - add n chars of a string to string
  * @dest: First string
  * @src: Last string
  * @n: Length of chars to add
