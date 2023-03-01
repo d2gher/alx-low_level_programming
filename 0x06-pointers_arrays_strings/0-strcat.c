@@ -2,7 +2,7 @@
  * _strcat - add two strings together
  * @dest: First string
  * @src: Last string
- * Return: nothing.
+ * Return: returns full string.
  */
 char *_strcat(char *dest, char *src)
 {
