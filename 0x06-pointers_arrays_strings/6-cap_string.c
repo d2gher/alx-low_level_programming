@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * cap_string - Capitalize the first letter of words
  * @s: The string
