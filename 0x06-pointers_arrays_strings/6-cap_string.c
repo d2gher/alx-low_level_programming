@@ -3,7 +3,7 @@
  * @s: The string
  * Return: The capitaized string
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 int i, to_up;
 to_up = 'a' - 'A';
