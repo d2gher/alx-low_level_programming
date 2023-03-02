@@ -7,8 +7,7 @@ char *cap_string(char *s)
 {
 int i, j, to_up;
 to_up = 'a' - 'A';
-char Separators[13] = {' ', '\t', '\n', ',', ';', '.',
-	'!', '?', '"', '(', ')', '{', '}'};
+char Separators[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
 for (i = 0; s[i] != '\0' ; i++)
 {
