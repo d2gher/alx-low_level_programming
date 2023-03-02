@@ -1,19 +1,20 @@
 /**
- * _strcmp - compares two strings
- * @s1: first string to compare
- * @s2: second string to compare
+ * _strcmp - Compare two stings
+ * @s1: First string
+ * @s2: last string
  *
- * Return: less than 0 if s1 is less than s2, 0 if they're equal,
- * more than 0 if s1 is greater than s2
+ * Return: Returns 0 if the strings are equal
+ * otherwise it returns the two chars subtracted
  */
 int _strcmp(char *s1, char *s2)
 {
-while (*s1 == *s2)
+while (1)
 {
-	if (*s1 == '\0')
-		return (0);
-	s1++;
-	s2++;
+if (*s1 == '\0')
+	return (0);
+if (*s1 != *s2)
+	return (*s1 - *s2);
+s1++;
+s2++;
 }
-return (*s1 - *s2);
 }
