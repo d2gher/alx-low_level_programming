@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  * cap_string - Capitalize the first letter of words
  * @s: The string
@@ -6,24 +5,27 @@
  */
 char *cap_string(char *s)
 {
-int i, j, to_up;
-to_up = 'a' - 'A';
-char Separators[13] = {' ', '\t', '\n', ',', ';', '.',
-'!','?', '"', '(', ')', '{', '}'};
+	int i, j;
 
-for (i = 0; s[i] != '\0' ; i++)
-{
-	if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
-		s[i] -= to_up;
+	char spe[13] = {' ', '\t', '\n', ',', ';', '.',
+		'!', '?', '"', '(', ')', '{', '}'};
 
-	for (j = 0; j < 13; j++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (Separators[j] == s[i])
+		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
+			s[i] -= 32;
+
+		for (j = 0; j < 13; j++)
 		{
-			if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
-				s[i + 1] -= to_up;
+			if (s[i] == spe[j])
+			{
+				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+				{
+					s[i + 1] -= 32;
+				}
+			}
 		}
 	}
-}
-return (s);
+
+	return (s);
 }
