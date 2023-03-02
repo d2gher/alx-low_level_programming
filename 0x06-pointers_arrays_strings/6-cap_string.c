@@ -1,9 +1,9 @@
 /**
- * string_toupper - Change letters to upcase
+ * cap_string - Capitalize the first letter of words
  * @s: The string
- * Return: The upcase string
+ * Return: The capitaized string
  */
-char *string_toupper(char *s)
+char *cap_string(char *)
 {
 int i, to_up;
 to_up = 'a' - 'A';
