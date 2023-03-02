@@ -5,15 +5,23 @@
  */
 char *cap_string(char *s)
 {
-int i, to_up;
+int i, j, to_up;
 to_up = 'a' - 'A';
+char Separators[13] = {' ', '\t', '\n', ',', ';', '.',
+	'!', '?', '"', '(', ')', '{', '}'};
 
 for (i = 0; s[i] != '\0' ; i++)
 {
-	if (i == 0 || (!(s[i - 1] >= 'a' && s[i - 1] <= 'z') && !(s[i - 1] >= 'A' && s[i -1] <= 'Z')))
+	if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
+		s[i] = s[i] - to_up;
+
+	for (j = 0; j < 13; j++)
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
-			s[i] = s[i] - to_up;
+		if (Separators[j] == s[i])
+		{
+			if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+				s[i + 1] = s[i + 1] - to_up;
+		}
 	}
 }
 return (s);
