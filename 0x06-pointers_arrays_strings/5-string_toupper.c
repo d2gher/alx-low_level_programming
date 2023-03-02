@@ -1,6 +1,6 @@
 /**
  * string_toupper - Change letters to upcase
- * @a: The string
+ * @s: The string
  * Return: The upcase string
  */
 char *string_toupper(char *s)
