@@ -1,7 +1,8 @@
 /**
- * leet - Encode string with leet
- * @s: The string
- * Return: The encoded string
+ * leet - encodes a string in 1337
+ * @s: string to be encoded
+ *
+ * Return: the resulting string;
  */
 char *leet(char *s)
 {
