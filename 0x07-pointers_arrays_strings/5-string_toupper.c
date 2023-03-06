@@ -1,17 +1,25 @@
-/**
- * string_toupper - Change letters to upcase
- * @s: The string
- * Return: The upcase string
- */
-char *string_toupper(char *s)
-{
-int i, to_up;
-to_up = 'a' - 'A';
+#include <stdio.h>
 
-for (i = 0; s[i] != '\0' ; i++)
+/**
+ * *_strstr - searches a string for substring
+ * @haystack: string to search
+ * @accept: the substring
+ *
+ * Return: pointer to first byte of matched substring, or NULL
+ */
+char *_strstr(char *haystack, char *needle)
 {
-	if (s[i] >= 'a' && s[i] <= 'z')
-		s[i] = s[i] - to_up;
+int i, j;
+
+for (i = 0; haystack[i] != '\0'; i++)
+{
+	for (j = 0; accept[j] != '\0'; j++)
+	{
+		if (*s == accept[j])
+			return (s);
+	}
+	s++;
 }
-return (s);
+
+return (NULL);
 }
