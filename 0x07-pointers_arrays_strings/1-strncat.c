@@ -1,26 +1,19 @@
 /**
- * _strncat - add n chars of a string to string
- * @dest: First string
- * @src: Last string
- * @n: Length of chars to add
- * Return: returns full string.
+ * *_memcpy - copys memory data
+ * @dest: destination
+ * @stc: src
+ * @n: number of times to copy dest
+ *
+ * Return: pointer to the memory area dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-int i, j;
-i = 0;
-j = 0;
+unsigned int i;
 
-while (dest[i] != '\0')
-	i++;
-
-while (src[j] != '\0' && j < n)
+for (i = 0; i < n; i++)
 {
-dest[i] = src[j];
-i++;
-j++;
+	dest[i] = src[i];
 }
-dest[i] = '\0';
 
 return (dest);
 }
