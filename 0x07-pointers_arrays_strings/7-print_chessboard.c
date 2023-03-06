@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * *print_chessboard - print 2 dimensional array
@@ -17,6 +17,6 @@ for (i = 0; i < 8; i++)
 	{
 		_putchar(a[i][j]);
 	}
-	_putchar('\0');
+	_putchar('\n');
 }
 }
