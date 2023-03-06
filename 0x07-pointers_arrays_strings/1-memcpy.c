@@ -1,7 +1,7 @@
 /**
  * *_memcpy - copys memory data
  * @dest: destination
- * @stc: src
+ * @src: source to copy from
  * @n: number of times to copy dest
  *
  * Return: pointer to the memory area dest
