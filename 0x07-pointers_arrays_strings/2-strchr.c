@@ -12,5 +12,5 @@ i = 0;
 while(s[i] != "\0")
 	if (s[i] == c)
 		return (&s[i]);
-return (NULL)
+return (NULL);
 }
