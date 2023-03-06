@@ -1,31 +1,22 @@
+#include <stdio.h>
+
 /**
- * cap_string - Capitalize the first letter of words
- * @s: The string
- * Return: The capitaized string
+ * *print_chessboard - print 2 dimonational array
+ * @haystack: string to search in
+ *
+ * Return: pointer to the beginning of the located substring
+ * or NULL if the substring is not found
  */
-char *cap_string(char *s)
+void print_chessboard(char (*a)[8]);
 {
-	int i, j;
+int i, j;
 
-	char spe[13] = {' ', '\t', '\n', ',', ';', '.',
-		'!', '?', '"', '(', ')', '{', '}'};
-
-	for (i = 0; s[i] != '\0'; i++)
+for (i = 0; i < 8; i++)
+{
+	for (j = 0; j < 8; j++)
 	{
-		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
-			s[i] -= 32;
-
-		for (j = 0; j < 13; j++)
-		{
-			if (s[i] == spe[j])
-			{
-				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
-				{
-					s[i + 1] -= 32;
-				}
-			}
-		}
+		_putchar(a[i][j])
 	}
-
-	return (s);
+	_putchar('\0')
+}
 }
