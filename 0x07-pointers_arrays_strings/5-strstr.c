@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * *_strstr - searches a string for substring
- * @haystack: string to search
- * @accept: the substring
+ * *_strstr - locates a substring
+ * @haystack: string to search 
+ * @needle: substring to look for
  *
- * Return: pointer to first byte of matched substring, or NULL
+ * Return: pointer to the beginning of the located substring
+ * or NULL if the substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {
