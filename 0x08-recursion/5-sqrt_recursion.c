@@ -1,15 +1,30 @@
+int _real_sqrt_recursion(int n, int i);
 /**
- * _pow_recursion - raise x to the power of y
- * @x: base
- * @y: raise to power
+ * _sqrt_recursion - get square root
+ * @n: base
  *
  * Return: x raised to the power of y
  */
 int _sqrt_recursion(int n)
 {
-if (n == 1)
-	return (1);
-if (n == 4)
-	return (2);
-return (1 + _sqrt_recursion(n - 1));
+if (n < 0)
+	return (-1);
+return (_real_sqrt_recursion(n, 0));
+}
+
+/**
+ * _real_sqrt_recursion - iterate through 
+ * numbers to get square root
+ * @n: number
+ * @i: square root
+ *
+ * Return: square root
+ */
+int _real_sqrt_recursion(int n, int i)
+{
+if (i * i > n)
+	return (-1);
+if (i * i == n)
+	return (i);
+return (real_sqrt_recursion(n, i + 1));		
 }
