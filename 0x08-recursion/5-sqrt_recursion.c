@@ -13,7 +13,7 @@ return (_real_sqrt_recursion(n, 0));
 }
 
 /**
- * _real_sqrt_recursion - iterate through 
+ * _real_sqrt_recursion - iterate through
  * numbers to get square root
  * @n: number
  * @i: square root
@@ -26,5 +26,5 @@ if (i * i > n)
 	return (-1);
 if (i * i == n)
 	return (i);
-return (_real_sqrt_recursion(n, i + 1));		
+return (_real_sqrt_recursion(n, i + 1));
 }
