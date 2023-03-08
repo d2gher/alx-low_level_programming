@@ -1,5 +1,5 @@
 /**
- * _pow_recursion - raise x to the power of y 
+ * _pow_recursion - raise x to the power of y
  * @x: base
  * @y: raise to power
  *
