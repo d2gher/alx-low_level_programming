@@ -18,7 +18,7 @@ size = 0;
 while (str[size])
 	size++;
 
-newstr = malloc(sizeof(str) * (size + 1));
+newstr = malloc(sizeof(char) * (size + 1));
 
 if (newstr == NULL)
 	return (NULL);
