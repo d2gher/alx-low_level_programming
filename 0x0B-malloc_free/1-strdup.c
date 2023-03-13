@@ -6,7 +6,7 @@
  *
  * Return: pointer to new string
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 char *newstr;
 int size, i;
