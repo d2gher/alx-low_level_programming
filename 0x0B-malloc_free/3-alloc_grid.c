@@ -24,7 +24,7 @@ for (i = 0; i < height; i++)
 {
 	arr[i] = (int *) malloc(sizeof(int) * width);
 	if (arr[i] == NULL)
-		return (NULL)
+		return (NULL);
 }
 
 for (i = 0; i < height; i++)
