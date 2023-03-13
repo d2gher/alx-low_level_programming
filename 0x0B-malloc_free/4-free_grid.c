@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * free_grid - free allocated grid array
- * @gird: gird to free
+ * @grid: gird to free
  * @height: height of grid
  *
  * Return: nothing
