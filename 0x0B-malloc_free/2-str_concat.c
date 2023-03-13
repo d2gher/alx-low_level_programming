@@ -17,6 +17,8 @@ if (s1 == NULL)
 if (s2 == NULL)
 	s2 = "";
 
+len1 = 0;
+len2 = 0;
 while (s1[len1])
 	len1++;
 while (s2[len2])
