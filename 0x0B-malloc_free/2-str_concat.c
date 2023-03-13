@@ -9,7 +9,7 @@
 char *str_concat(char *s1, char *s2)
 {
 char *newstr;
-int size, m, i;
+int len1, len2, size, m, i;
 
 if (s1 == NULL)
 	s1 = "";
@@ -17,11 +17,12 @@ if (s1 == NULL)
 if (s2 == NULL)
 	s2 = "";
 
-size = 0;
-while (s1[size])
-	size++;
-while (s2[size])
-	size++;
+while (s1[len1])
+	len1++;
+while (s2[len2])
+	len2++;
+
+size = len1 + len2; 
 
 newstr = malloc(sizeof(char) * (size + 1));
 
