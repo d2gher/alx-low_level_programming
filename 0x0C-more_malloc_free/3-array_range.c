@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+
 /**
  * *array_range - create an array of numbers
  * @min: starting number
