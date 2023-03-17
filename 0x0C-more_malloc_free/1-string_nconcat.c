@@ -17,7 +17,7 @@ char *s;
 while (s1 && s1[len1])
 	len1++;
 while (s2 && s2[len2])
-	len1++;
+	len2++;
 
 if (n > len2)
 	n = len2;
