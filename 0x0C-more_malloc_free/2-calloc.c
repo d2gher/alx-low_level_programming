@@ -22,7 +22,7 @@ if (arr == NULL)
 for (i = 0; i < nmemb; i++)
 	arr[i] = 0;
 
-arr[nmemb] = '\0'
+arr[nmemb] = '\0';
 
 return (arr);	
 }
