@@ -22,5 +22,5 @@ if (arr == NULL)
 for (i = 0; i < nmemb * size; i++)
 	arr[i] = 0;
 
-return (arr);	
+return (arr);
 }
