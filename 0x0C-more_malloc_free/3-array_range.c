@@ -25,4 +25,6 @@ if (arr == NULL)
 
 for (i = 0; min <= max; i++)
 	arr[i] = min++;
+
+return (arr);
 }
