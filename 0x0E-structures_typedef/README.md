@@ -1,1 +1,1 @@
-# Macros and consts
+# Structures
