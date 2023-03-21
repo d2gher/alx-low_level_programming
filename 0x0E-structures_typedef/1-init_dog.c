@@ -3,8 +3,11 @@
 
 /**
  * init_dog - initializes a dog struct
- *
- * Return: nothing
+ * @d: pointer to struct dog
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * 
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
