@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "function_pointers.h"
 
 /**
@@ -6,6 +5,8 @@
  * @array: array to iterate over
  * @size: size of the array
  * @cmp: function to compare with
+ * 
+ * Return: index of int if found, else -1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
