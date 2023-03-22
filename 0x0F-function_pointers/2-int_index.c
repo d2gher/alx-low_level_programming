@@ -2,6 +2,7 @@
 
 /**
  * int_index - find a value in array
+ *
  * @array: array to iterate over
  * @size: size of the array
  * @cmp: function to compare with
