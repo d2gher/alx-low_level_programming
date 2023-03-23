@@ -5,7 +5,7 @@
 /**
  * sum_them_all - sum up a list of numbers
  * @n: number of ints
- * 
+ *
  * Return: the sum of all numbers
  */
 int sum_them_all(const unsigned int n, ...)
