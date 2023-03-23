@@ -4,6 +4,7 @@
 
 /**
  * print_numbers - print all the numbers provided
+ * @separator: what separates numbers
  * @n: number of numbers
  *
  * Return: nothing
